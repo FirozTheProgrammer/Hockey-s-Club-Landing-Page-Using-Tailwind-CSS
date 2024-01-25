@@ -82,5 +82,78 @@
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container px-4 md:px-0">
+      <!-- header section -->
+      <header>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="block dropdown lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h7"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 lg:flex"
+              >
+                <li class="text-common">Home</li>
+                <li>About</li>
+                <li>Pages</li>
+                <li>Blog</li>
+                <li>Contant</li>
+              </ul>
+            </div>
+            <div class="navbar-center">
+              <a class="btn btn-ghost text-xl"
+                ><img class="max-w-40" src="./Images/logo.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="hidden lg:block">
+            <ul class="flex justify-center space-x-6 text-xl manrope font-bold">
+              <li class="text-common">Home</li>
+              <li>About</li>
+              <li>Pages</li>
+              <li>Blog</li>
+              <li>Contant</li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button class="hidden lg:block btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+            <button class="btn common-bg btn-accent">
+              <a href="#">Get Ticket</a>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
